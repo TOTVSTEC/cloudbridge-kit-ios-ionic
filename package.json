@@ -1,0 +1,32 @@
+{
+  "name": "cloudbridge-kit-ios-ionic",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "A tool for creating and developing CloudBridge iOS apps.",
+  "homepage": "http://www.totvs.com/",
+  "keywords": [
+    "cloudbridge",
+    "mobile",
+    "app",
+    "hybrid",
+    "ios"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TOTVSTEC/cloudbridge-kit-ios-ionic.git"
+  },
+  "contributors": [
+    {
+      "name": "Daniel Otto Bolognani",
+      "email": "daniel.bolognani@totvs.com.br"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "totvstec-tools": "^1.0.6"
+  },
+  "scripts": {
+    "release": "totvstec release",
+    "release:minor": "totvstec release minor",
+    "release:major": "totvstec release major"
+  }
+}
