@@ -46,7 +46,7 @@
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* <%= project.name %>.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "<%= project.name %>.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B97316FDCFA39411CA2CEA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
-		2DDDDCD61ED32762009929A2 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name n= libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		2DDDDCD61ED32762009929A2 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		2DDDDCD81ED3276D009929A2 /* libappserver.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libappserver.a; sourceTree = "<group>"; };
 		2DDDDCDA1ED328DE009929A2 /* appserver.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = appserver.ini; path = <%= project.nName %>/appserver.ini; sourceTree = SOURCE_ROOT; };
 		2DDDDCDB1ED328DE009929A2 /* tttp110.rpo */ = {isa = PBXFileReference; lastKnownFileType = file; name = tttp110.rpo; path = <%= project.name %>/tttp110.rpo; sourceTree = SOURCE_ROOT; };
