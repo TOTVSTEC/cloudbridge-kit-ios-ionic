@@ -50,7 +50,7 @@ class InstallTask {
 				}
 			})
 			.then(function() {
-				return self.runCordova();
+				return self.runIonic();
 			})
 			.then(function() {
 				return self.copySources();
@@ -80,7 +80,7 @@ class InstallTask {
 			pkgData = {
 				project: require(path.join(this.projectDir, 'package.json'))
 			},
-			projectDisplayName = pkgData.project.displayName || "HelloCordova",
+			projectDisplayName = pkgData.project.displayName || "MyApp",
 			targetPath = path.join("platforms", "ios"),
 			targetSrcPath = path.join(targetPath, projectDisplayName),
 			targetBinPath = targetPath,
@@ -177,7 +177,7 @@ class InstallTask {
 		return Q();
 	}
 
-	runCordova() {
+	runIonic() {
     try {
       child_process.execSync("ionic cordova platform add ios", { stdio: [0, 1 ,2] });
     }
