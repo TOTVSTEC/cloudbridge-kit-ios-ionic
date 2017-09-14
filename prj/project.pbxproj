@@ -48,7 +48,7 @@
 		29B97316FDCFA39411CA2CEA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		2DDDDCD61ED32762009929A2 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		2DDDDCD81ED3276D009929A2 /* libappserver.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libappserver.a; sourceTree = "<group>"; };
-		2DDDDCDA1ED328DE009929A2 /* appserver.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = appserver.ini; path = <%= project.nName %>/appserver.ini; sourceTree = SOURCE_ROOT; };
+		2DDDDCDA1ED328DE009929A2 /* appserver.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = appserver.ini; path = <%= project.name %>/appserver.ini; sourceTree = SOURCE_ROOT; };
 		2DDDDCDB1ED328DE009929A2 /* tttp110.rpo */ = {isa = PBXFileReference; lastKnownFileType = file; name = tttp110.rpo; path = <%= project.name %>/tttp110.rpo; sourceTree = SOURCE_ROOT; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
