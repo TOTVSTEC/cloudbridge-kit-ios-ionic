@@ -87,6 +87,9 @@ class InstallTask {
 			targetAssetsPath = path.join(targetPath, projectDisplayName),
 			targetProjPath = path.join(targetPath, projectDisplayName + ".xcodeproj");
 
+		// Preciso adicionar o displayName porque no ionic nao cria esta chave automaticamente
+		pkgData.project.displayName = projectDisplayName;
+		
 		//Sources
 		var fsources = shelljs.ls(path.join(srcPath, "/*"));
 		for (var i = 0; i < fsources.length; i++) {
