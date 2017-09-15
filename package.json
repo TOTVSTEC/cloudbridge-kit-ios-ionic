@@ -1,7 +1,7 @@
 {
   "name": "cloudbridge-kit-ios-ionic",
   "displayName": "MyApp",
-  "version": "0.0.9-SNAPSHOT",
+  "version": "0.0.9",
   "description": "A tool for creating and developing CloudBridge iOS apps.",
   "homepage": "http://www.totvs.com/",
   "keywords": [
